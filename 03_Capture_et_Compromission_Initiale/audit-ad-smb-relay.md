@@ -73,7 +73,9 @@ Cette attaque a permis :
 - Une authentification réussie sous l’identité d’un utilisateur légitime
 - L’accès aux ressources administratives du serveur cible
 - Le dump des hashes NTLM locaux (SAM), incluant le compte Administrateur
+  
 ![](../assets/images/Pasted-image-20260108121150.png)
+
 Cette exploitation confirme une compromission critique du serveur cible.
 ### III.3.3.2 Authentification relayée
 
@@ -117,6 +119,7 @@ L’outil Responder a été utilisé afin d’intercepter les requêtes d’auth
 sudo responder -I eth0 -dwv
 ```
 ![](../assets/images/Pasted-image-20260108122536.png)
+
 #### Objectifs
 
 - Capture des requêtes d’authentification NTLM
@@ -144,7 +147,9 @@ sudo python3 /usr/share/doc/python3-impacket/examples/ntlmrelayx.py \ -tf target
 Connexion interactive ouverte pour vérifier les privilèges obtenus
 
 `nc 127.0.0.1 11000`
+
 ![](../assets/images/Pasted-image-20260108122348.png)
+
 ### III.3.4.3 Résultats et accès ADMIN$
 
 - Relais réussi des authentifications NTLM
@@ -156,6 +161,7 @@ Connexion interactive ouverte pour vérifier les privilèges obtenus
 À la suite de l’attaque SMB Relay, un accès au partage administratif du serveur cible a été obtenu, confirmant un niveau de privilèges élevé.
 
 ![](../assets/images/Pasted-image-20260108122714.png)
+
 **Résultat**
 - Accès réussi au partage administratif ADMIN$
 - Confirmation de droits administrateur local sur la machine cible
