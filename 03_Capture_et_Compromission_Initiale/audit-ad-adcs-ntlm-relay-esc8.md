@@ -87,6 +87,7 @@ python3 ntlmrelayx.py -6 \ -t ldaps://192.168.1.29 \ -wh fakewpad.cyber.lan \ -l
 ```
 
 ![](../assets/images/Pasted-image-20260108131354.png)
+
 Authentification LDAPS réussie, privilèges de l’utilisateur relayé obtenus.
 
 |Option|Description|
@@ -119,6 +120,7 @@ Cette attaque est rendue possible par :
 ### III.4.4.4 Résultats observés
 
 ![](../assets/images/Pasted-image-20260120104444.png)
+
 Authentification LDAPS réussie, privilèges de l’utilisateur relayé obtenus.
 ### III.4.4.5 Création du répertoire `lootme`
 
