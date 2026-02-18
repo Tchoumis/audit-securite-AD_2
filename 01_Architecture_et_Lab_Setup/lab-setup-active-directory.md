@@ -27,12 +27,14 @@ La capture suivante illustre la création du domaine cyber.lan et la promotion d
 
 ![](../assets/images/Pasted-image-20260107163036.png)
 ![](../assets/images/Pasted-image-20260107163132.png)
+
 ### I.2.4 Partages et administration
 
 - Création de partages réseau
 - Gestion des utilisateurs, groupes et stratégies de groupe (GPO)
 
 ![](../assets/images/Pasted-image-20260107163219.png)
+
 Certaines stratégies de groupe ont été volontairement configurées de manière non sécurisée afin d’illustrer l’impact direct de mauvaises pratiques de sécurité dans un environnement Active Directory.
 
 ![](../assets/images/Pasted-image-20260108101630.png) 
@@ -56,7 +58,9 @@ L’outil Active Directory Users and Computers (ADUC) a été utilisé afin de s
 3. Création de comptes utilisateurs
     - Comptes administrateurs
     - Comptes utilisateurs standards
+
 ![](../assets/images/Pasted-image-20260107165745.png)
+
 Cette structuration permet d’identifier plus facilement les faiblesses de gestion des identités analysées dans les sections suivantes.
 
 ## I.2.5 Comptes de service et SPN (Service Principal Name)
@@ -104,6 +108,7 @@ Cette configuration a été volontairement mise en place afin de simuler un scé
 Une GPO a été appliquée au niveau du domaine afin de désactiver Microsoft Defender Antivirus.
 
 ![](../assets/images/Pasted-image-20260116134830.png)
+
 ### I.2.6.2 Impact sécurité
 
 - Suppression d’une protection native essentielle
