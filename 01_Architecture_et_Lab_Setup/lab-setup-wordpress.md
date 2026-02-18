@@ -97,6 +97,7 @@ Dans le cadre de l’infrastructure WordPress déployée sur Debian, un mécanis
 Ces éléments sont volontairement configurés avec des mauvaises pratiques afin de permettre un audit pédagogique.
 
 ![](../assets/images/Pasted-image-20260108105835.png)
+
 ### I.3.5.1  Mécanisme de sauvegarde MySQL
 
 Un mécanisme automatique de sauvegarde de la base de données MySQL a été configuré, comprenant :
@@ -119,9 +120,11 @@ Ce script effectue :
 1. Un dump de la base MySQL principale
 2. Une restauration automatique vers une base de secours
 3. Un journal d’exécution
+
 ![](../assets/images/Pasted-image-20260108105910.png)
 
 ![](../assets/images/Pasted-image-20260108105950.png)
+
 ## I.3.6 Orchestration des services (docker-compose.yml)
 
 L’ensemble de l’environnement applicatif a été déployé via Docker Compose, comprenant :
@@ -141,6 +144,7 @@ L’ensemble de l’environnement applicatif a été déployé via Docker Compos
 ![](../assets/images/Pasted-image-20260108110110.png)
 
 ![](../assets/images/Pasted-image-20260108110146.png)
+
 **Objectifs pour l'audit**
 
 Cette configuration a été mise en place pour :
@@ -150,6 +154,7 @@ Cette configuration a été mise en place pour :
 ## I.3.6 Gestion des secrets via le fichier .env
 
 ![](../assets/images/Pasted-image-20260212114711.png)
+
 Dans l’environnement conteneurisé déployé sur le serveur Debian, les identifiants utilisés par les différents services Docker (WordPress, MySQL, phpMyAdmin) sont centralisés dans un fichier .env.
 
 Ce choix de conception, bien que fonctionnel, constitue une mauvaise pratique de sécurité volontaire.
@@ -172,14 +177,19 @@ L’ensemble des conteneurs a été lancé à l’aide de Docker Compose, rendan
 Ces accès confirment le bon fonctionnement de l’environnement tout en exposant volontairement des surfaces d’attaque exploitables.
 
 ![](../assets/images/Pasted-image-20260108110304.png)
+
 **Résultat**
 
 - WordPress accessible :  
      [http://localhost:8080](http://localhost:8080)
+  
 ![](../assets/images/Pasted-image-20260108112138.png)
+
 - phpMyAdmin accessible :  
      [http://localhost:8081](http://localhost:8081)
+  
 ![](../assets/images/Pasted-image-20260108112016.png)
+
 Ces éléments constituent la base technique exploitée lors de la phase d’audit de sécurité applicative et système présentée dans les sections suivantes.
 
 ### I.3.6.3 Impact sécurité global
