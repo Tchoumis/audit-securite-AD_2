@@ -16,9 +16,11 @@ Cette analyse met notamment en évidence :
 Les requêtes et visualisations suivantes ont été utilisées afin d’identifier les relations à risque au sein de l’annuaire Active Directory :
 
 - Recherche d’un utilisateur spécifique
+
 ![](../assets/images/Pasted-image-20260109113656.png)
 
 - Analyse des appartenances aux groupes
+  
   ![](../assets/images/Pasted-image-20260109114159.png)
 
 - Identification des machines accessibles
