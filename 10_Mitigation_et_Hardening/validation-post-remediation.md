@@ -14,12 +14,16 @@ msfconsole
 search psexec
 ```
 
- ![](../assets/images/Pasted-image-20260108124847.png)   
+ ![](../assets/images/Pasted-image-20260108124847.png)
+ 
 ![](../assets/images/Pasted-image-20260108125053.png)
+
 ![](../assets/images/Pasted-image-20260108125315.png)
+
 ![](../assets/images/Pasted-image-20260119173553.png)
 
 ![](../assets/images/Pasted-image-20260119173639.png)
+
 **Résultats :**
 - Tous les modules sont disponibles, mais aucune tentative d’exploitation n’a abouti.”.
 - L’accès aux partages administratifs est refusé.
@@ -38,6 +42,7 @@ smbclient -L //192.168.1.29 -U "cyber.lan/jules.ferry"
 ```
 
 ![](../assets/images/Pasted-image-20260108125424.png)
+
 **Résultats :**
 
 - Les identifiants sont reconnus.
@@ -88,9 +93,9 @@ Ces validations confirment l’efficacité des mesures de durcissement mises en 
 
 | Test                    | Résultat attendu               | Résultat observé              | Statut  |
 | ----------------------- | ------------------------------ | ----------------------------- | ------- |
-| **Metasploit psexec**    | Échec exploitation             | Échec                         | ✅      |
-| **smbclient partages**   | Accès refusé aux partages admin | Accès refusé                  | ✅      |
-| **Impacket psexec**      | Accès autorisé avec identifiants valides | Réussi                | ✅      |
+| **Metasploit psexec**    | Échec exploitation             | Échec                         | ok      |
+| **smbclient partages**   | Accès refusé aux partages admin | Accès refusé                  | ok      |
+| **Impacket psexec**      | Accès autorisé avec identifiants valides | Réussi                | ok      |
 
 **Journalisation et détection proactive** :  
 Même après durcissement, il est recommandé de journaliser et de corréler toutes les tentatives SMB et NTLM via un SIEM afin de détecter toute tentative de contournement ou activité suspecte. Cette approche permettra une détection rapide des attaques potentielles et fournira des données cruciales pour la réponse aux incidents en temps réel.
