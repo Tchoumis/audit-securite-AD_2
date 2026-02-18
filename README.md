@@ -14,67 +14,11 @@ L’approche combine :
 
 ## Arborescence du projet
 <img width="439" height="590" alt="image" src="https://github.com/user-attachments/assets/a557e1ee-7a42-44bb-ad7d-fff79c8780a3" />
+
 <img width="440" height="589" alt="image" src="https://github.com/user-attachments/assets/46f3e8e5-da4e-4d1b-b54f-1e4bdef8342e" />
+
 <img width="440" height="161" alt="image" src="https://github.com/user-attachments/assets/dd6f1e75-2e41-45e7-89ba-9d8d6125a5d4" />
 
-
-
-
-00_Executive_Summary
-01_Architecture_et_Lab_Setup
-   ├─ architecture-overview.md
-   ├─ lab-setup-active-directory
-   └─ lab-setup-wordpress
-
-02_Reconnaissance_et_Enumération
-   ├─ audit-ad-02-enumeration-reseau
-   ├─ audit-ad-powerview-enumeration
-   ├─ audit-ad-bloodhound
-   └─ 02_Enumération_AD_Services_Partages
-
-03_Capture_et_Compromission_Initiale
-   ├─ audit-ad-01-llmnr-poisoning
-   ├─ audit-ad-03-post-capture-ntlm
-   ├─ audit-ad-04-smb-relay.md
-   ├─ audit-ad-ipv6-mitm6-ntlm-relay
-   └─ audit-ad-adcs-ntlm-relay-esc8
-
-04_Exploitation_et_Post_Compromission
-   ├─ 04-extraction-secrets-et-escalade-potentielle
-   ├─ audit-ad-post-compromission
-   ├─ Exploitation_Active_Directory_via_Metasploit
-   └─ 05_Post_Compromission_AD_CME
-
-05_Post_Compromission_Avancée
-   ├─ Impacket_psexec_et_exec_distante
-   ├─ Metasploit_PsExec_Meterpreter
-   ├─ Secrets_dump_et_Mimikatz
-   ├─ Persistance_locale_et_AD
-   └─ Limites_et_Echecs
-
-06_Exploitation_Kerberos_et_GPO
-   └─ 08_Kerberoasting_GPP
-
-07_Chaine_d_Attaque_Complete
-   └─ 05-chaine-d-attaque-active-directory
-
-08_Audits_Complémentaires
-   ├─ audit-wordpress
-   └─ audit-iam-oauth-openid-passback
-
-09_Detection_et_Monitoring
-   └─ detection-monitoring
-
-10_Mitigation_et_Hardening
-   ├─ smb-mitigation
-   ├─ hardening-ad
-   └─ recommandations
-
-11_Scan_Automatisé
-   └─ openvas-gvm
-
-12_Validation_Post_Remediation
-   └─ validation-post-remediation
 
 ## Objectif du projet
 
