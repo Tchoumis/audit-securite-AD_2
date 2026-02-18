@@ -27,6 +27,7 @@ Lors de la phase d’énumération réseau, plusieurs ports critiques ont été 
 |3269|GC sécurisé|Global Catalog via SSL|Accès aux métadonnées AD|
 |5985|WinRM|Exécution distante|Exécution de commandes à distance|
 **Observation :** Les services exposés (LDAP, SMB, Kerberos, WinRM, Global Catalog) permettent l’énumération du domaine et constituent des vecteurs pour Kerberoasting, Pass-the-Hash, exploitation de GPP et mouvement latéral. (MITRE ATT&CK : Discovery, Credential Access, Lateral Movement)
+
 ## II.1.2 Analyse
 
 La présence combinée de LDAP, Kerberos, SMB, WinRM et Global Catalog confirme que la machine cible est un contrôleur de domaine Active Directory.
@@ -81,6 +82,7 @@ smbclient //192.168.1.30/cyberpartages -U cyber.lan\\jules.ferry
 
 
 ![](../assets/images/Pasted-image-20260212135827.png)
+
 _Figure 2 : Connexion réussie au partage cyberpartages avec un compte standard._
 
 #### Résultat observé
