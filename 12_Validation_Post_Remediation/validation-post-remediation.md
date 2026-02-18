@@ -78,6 +78,9 @@ Les tests post-correction confirment que :
 
 **Schéma synthétique :**
 
+<img width="562" height="365" alt="image" src="https://github.com/user-attachments/assets/aedce3a6-5df1-42a0-b05c-28245a6c9934" />
+
+
 Tentative d’attaque SMB / NTLM
             ↓
 ──────────────────────────────
