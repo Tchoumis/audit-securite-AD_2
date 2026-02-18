@@ -1,7 +1,7 @@
 
 ### Synthèse Audit Active Directory et Sécurité Windows
 
-## Résumé exécutif
+## Résumé
 
 Ce projet présente un audit de sécurité Active Directory mené dans un environnement Windows réaliste.  
 Il démontre comment une compromission utilisateur initiale peut évoluer vers une compromission étendue de l’infrastructure, puis valide l’efficacité de mesures de durcissement natives Windows appliquées en remédiation.
@@ -13,6 +13,12 @@ L’approche combine :
 - tests de non-régression post-remédiation (Blue Team).
 
 ## Arborescence du projet
+<img width="439" height="590" alt="image" src="https://github.com/user-attachments/assets/a557e1ee-7a42-44bb-ad7d-fff79c8780a3" />
+<img width="440" height="589" alt="image" src="https://github.com/user-attachments/assets/46f3e8e5-da4e-4d1b-b54f-1e4bdef8342e" />
+<img width="440" height="161" alt="image" src="https://github.com/user-attachments/assets/dd6f1e75-2e41-45e7-89ba-9d8d6125a5d4" />
+
+
+
 
 00_Executive_Summary
 01_Architecture_et_Lab_Setup
