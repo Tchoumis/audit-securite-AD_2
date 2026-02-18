@@ -80,28 +80,6 @@ Les tests post-correction confirment que :
 
 <img width="562" height="365" alt="image" src="https://github.com/user-attachments/assets/aedce3a6-5df1-42a0-b05c-28245a6c9934" />
 
-
-Tentative d’attaque SMB / NTLM
-            ↓
-──────────────────────────────
-    Mesures de durcissement  
- ────────────────────────────
-• Signature SMB activée     
-• NTLM restreint            
-• LLMNR / NBT-NS désactivé  
-──────────────────────────────
-            ↓
-          Résultat
-            ↓
-────────────────────────────────────────────
-  Attaques bloquées                        Accès légitime OK 
-───────────────────                      ─────────────────── 
-• SMB Relay                                     • Comptes valides   
-• NTLM Relay                                   • Kerberos utilisé  
-• Responder                                     • Partages accessible
-
-
-
 ## XII.6 Recommandations finales
 
 - Forcer la signature SMB sur tous les serveurs et postes du domaine.
