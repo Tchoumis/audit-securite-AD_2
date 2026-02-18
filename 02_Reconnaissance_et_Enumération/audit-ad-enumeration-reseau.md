@@ -29,7 +29,7 @@ Un test de connectivité est réalisé afin de valider la portée réseau et de 
 
 Cette étape permet de vérifier la communication entre la machine d’audit et les systèmes cibles avant toute phase de scan plus intrusive.
 
-![](assets/images/Pasted-image-20260108114128.png)
+![](../assets/images/Pasted-image-20260108114128.png)
 
 #### Scan réseau global
 

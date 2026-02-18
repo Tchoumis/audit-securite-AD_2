@@ -16,19 +16,19 @@ Cette analyse met notamment en évidence :
 Les requêtes et visualisations suivantes ont été utilisées afin d’identifier les relations à risque au sein de l’annuaire Active Directory :
 
 - Recherche d’un utilisateur spécifique
-![](assets/images/Pasted-image-20260109113656.png)
+![](../assets/images/Pasted-image-20260109113656.png)
 
 - Analyse des appartenances aux groupes
-  ![](assets/images/Pasted-image-20260109114159.png)
+  ![](../assets/images/Pasted-image-20260109114159.png)
 
 - Identification des machines accessibles
 - Tous les administrateurs du domaine
 
-![](assets/images/Pasted-image-20260109114409.png)
+![](../assets/images/Pasted-image-20260109114409.png)
 
 - Visualisation des chemins d’attaque vers Domain Admin
 
-![](assets/images/Pasted-image-20260109114514.png)
+![](../assets/images/Pasted-image-20260109114514.png)
 
 Ces relations constituent des vecteurs d’escalade souvent invisibles lors d’une énumération classique des comptes et des services.
 
@@ -97,7 +97,7 @@ Sur un contrôleur de domaine, ce mécanisme permet l’exécution de code avec 
 3. Redémarrage du service DNS  
 4. Exécution de code à haut privilège sur le contrôleur de domaine  
 
-![](assets/images/Pasted-image-20260109115804.png)
+![](../assets/images/Pasted-image-20260109115804.png)
 
 ### II.3.10 Impact sécurité global
 

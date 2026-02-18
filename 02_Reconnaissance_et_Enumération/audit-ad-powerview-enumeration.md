@@ -34,7 +34,7 @@ Informations générales sur le domaine
 
 `Get-NetDomain`
 
-![](assets/images/Pasted-image-20260108132727.png)
+![](../assets/images/Pasted-image-20260108132727.png)
 
 - Nom du domaine
 - SID
@@ -44,7 +44,7 @@ Informations générales sur le domaine
 
 `Get-NetDomainController`
 
-![](assets/images/Pasted-image-20260108132841.png)
+![](../assets/images/Pasted-image-20260108132841.png)
 
 - Nom du DC
 - Adresse IP
@@ -54,7 +54,7 @@ Informations générales sur le domaine
 
 `Get-DomainPolicy`
 
-![](assets/images/Pasted-image-20260108132955.png)
+![](../assets/images/Pasted-image-20260108132955.png)
 
 Analyse de la politique de mot de passe
 
@@ -62,7 +62,7 @@ Paramètres principaux observés
 
 `(Get-DomainPolicy).SystemAccess`
 
-![](assets/images/Pasted-image-20260108140243.png)
+![](../assets/images/Pasted-image-20260108140243.png)
 
 **Analyse des paramètres et lien offensive**
 
@@ -159,12 +159,12 @@ La politique présente une bonne base, mais nécessite des ajustements (longueur
 
 `Get-NetUser`
 
-![](assets/images/Pasted-image-20260120133144.png)  
+![](../assets/images/Pasted-image-20260120133144.png)  
 Autre commandes:
 
-![](assets/images/Pasted-image-20260120133221.png)  
-![](assets/images/Pasted-image-20260120133323.png)  
-![](assets/images/Pasted-image-20260120133002.png)
+![](../assets/images/Pasted-image-20260120133221.png)  
+![](../assets/images/Pasted-image-20260120133323.png)  
+![](../assets/images/Pasted-image-20260120133002.png)
 
 **Objectif :**
 

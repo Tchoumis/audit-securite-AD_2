@@ -7,7 +7,7 @@ Cette phase permet de déterminer dans quelle mesure un utilisateur authentifié
 
 Lors de la phase d’énumération réseau, plusieurs ports critiques ont été identifiés comme ouverts sur la machine cible 192.168.1.30, indiquant la présence d’un serveur Windows Active Directory.
 
-![](assets/images/Pasted-image-20260109132541.png)
+![](../assets/images/Pasted-image-20260109132541.png)
 
 #### Résumé des ports détectés
 
@@ -80,7 +80,7 @@ smbclient //192.168.1.30/cyberpartages -U cyber.lan\\jules.ferry
 ```
 
 
-![](assets/images/Pasted-image-20260212135827.png)
+![](../assets/images/Pasted-image-20260212135827.png)
 _Figure 2 : Connexion réussie au partage cyberpartages avec un compte standard._
 
 #### Résultat observé

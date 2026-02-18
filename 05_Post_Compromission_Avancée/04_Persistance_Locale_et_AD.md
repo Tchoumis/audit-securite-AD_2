@@ -15,8 +15,8 @@ net localgroup administrators pentest /add
 Cette persistance ne nécessite aucune vulnérabilité logicielle ; elle repose uniquement sur les privilèges administrateur locaux existants.
 
 
-![](assets/images/Pasted-image-20260109123110.png)
-![](assets/images/Pasted-image-20260109123243.png)
+![](../assets/images/Pasted-image-20260109123110.png)
+![](../assets/images/Pasted-image-20260109123243.png)
 ## V.5.2 Analyse
 
 - Création d’un compte local supplémentaire ;

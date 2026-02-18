@@ -24,8 +24,8 @@ Dans le cadre du laboratoire, le rôle Active Directory Certificate Services (AD
 **Chemin d’installation :**  
 Gestionnaire de serveur => Ajouter des rôles et fonctionnalités
 
-![](assets/images/Pasted-image-20260108130734.png)  
-![](assets/images/Pasted-image-20260108130916.png)
+![](../assets/images/Pasted-image-20260108130734.png)  
+![](../assets/images/Pasted-image-20260108130916.png)
 
 ## III.4.2 Constat d’audit critique
 
@@ -57,7 +57,7 @@ Cette étape est similaire à l’attaque MITM6 décrite précédemment, mais ut
 
 `sudo mitm6 -d cyber.lan`
 
-![](assets/images/Pasted-image-20260108131043.png)
+![](../assets/images/Pasted-image-20260108131043.png)
 
 ### III.4.4.1 Effets observés
 
@@ -86,7 +86,7 @@ L’outil ntlmrelayx.py (suite Impacket) permet de :
 python3 ntlmrelayx.py -6 \ -t ldaps://192.168.1.29 \ -wh fakewpad.cyber.lan \ -l lootme
 ```
 
-![](assets/images/Pasted-image-20260108131354.png)
+![](../assets/images/Pasted-image-20260108131354.png)
 Authentification LDAPS réussie, privilèges de l’utilisateur relayé obtenus.
 
 |Option|Description|
@@ -118,7 +118,7 @@ Cette attaque est rendue possible par :
 
 ### III.4.4.4 Résultats observés
 
-![](assets/images/Pasted-image-20260120104444.png)
+![](../assets/images/Pasted-image-20260120104444.png)
 Authentification LDAPS réussie, privilèges de l’utilisateur relayé obtenus.
 ### III.4.4.5 Création du répertoire `lootme`
 

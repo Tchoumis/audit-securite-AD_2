@@ -14,12 +14,12 @@ msfconsole
 search psexec
 ```
 
- ![](assets/images/Pasted-image-20260108124847.png)   
-![](assets/images/Pasted-image-20260108125053.png)
-![](assets/images/Pasted-image-20260108125315.png)
-![](assets/images/Pasted-image-20260119173553.png)
+ ![](../assets/images/Pasted-image-20260108124847.png)   
+![](../assets/images/Pasted-image-20260108125053.png)
+![](../assets/images/Pasted-image-20260108125315.png)
+![](../assets/images/Pasted-image-20260119173553.png)
 
-![](assets/images/Pasted-image-20260119173639.png)
+![](../assets/images/Pasted-image-20260119173639.png)
 **Résultats :**
 - Tous les modules sont disponibles, mais aucune tentative d’exploitation n’a abouti.”.
 - L’accès aux partages administratifs est refusé.
@@ -37,7 +37,7 @@ Confirmer le comportement du service SMB après durcissement.
 smbclient -L //192.168.1.29 -U "cyber.lan/jules.ferry"
 ```
 
-![](assets/images/Pasted-image-20260108125424.png)
+![](../assets/images/Pasted-image-20260108125424.png)
 **Résultats :**
 
 - Les identifiants sont reconnus.
@@ -57,9 +57,9 @@ Vérifier que les accès administratifs autorisés restent opérationnels après
 impacket-psexec 'cyber.lan/jules.ferry:abcd1234@@192.168.1.29'
 ```
 
-![](assets/images/Pasted-image-20260108125522.png)
+![](../assets/images/Pasted-image-20260108125522.png)
 
-![](assets/images/Pasted-image-20260108125625.png)
+![](../assets/images/Pasted-image-20260108125625.png)
 
 **Résultats :**
 

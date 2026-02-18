@@ -47,8 +47,8 @@ sudo responder -I eth0 -wdv
 - Simuler des services réseau (SMB, HTTP, DNS)
 - Capturer les hashs NTLMv2 envoyés par les postes Windows
 
-![](assets/images/Pasted-image-20260108115306.png)  
-![](assets/images/Pasted-image-20260108115427.png)
+![](../assets/images/Pasted-image-20260108115306.png)  
+![](../assets/images/Pasted-image-20260108115427.png)
 
 ## III.1.5 Exemple d’exploitation observé
 
@@ -59,7 +59,7 @@ Dans l’environnement audité, le scénario suivant a été observé :
 4. Le poste Windows initie une tentative d’authentification
 5. Le hash NTLMv2 est transmis à la machine de l’attaquant
 
-![](assets/images/Pasted-image-20260108115815.png)
+![](../assets/images/Pasted-image-20260108115815.png)
 
 Ce scénario illustre comment un simple poste Windows, en cherchant une ressource inexistante, peut involontairement divulguer ses identifiants NTLMv2 à un attaquant interne.
 ## III.1.6 Stockage des identifiants capturés

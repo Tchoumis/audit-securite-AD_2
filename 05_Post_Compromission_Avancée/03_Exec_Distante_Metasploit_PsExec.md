@@ -25,16 +25,16 @@ Comme avec `psexec.py`, le module crée un service Windows temporaire sur la mac
 
 **Paramètres principaux utilisés**
 
-![](assets/images/Pasted-image-20260109130226.png)
+![](../assets/images/Pasted-image-20260109130226.png)
 
-![](assets/images/Pasted-image-20260109130422.png)
+![](../assets/images/Pasted-image-20260109130422.png)
 ---
-![](assets/images/Pasted-image-20260109130626.png)
+![](../assets/images/Pasted-image-20260109130626.png)
 
 **Résultat :** session Meterpreter ouverte avec des privilèges administrateur local sur le serveur cible.
 ### V.3.3 Vérification des privilèges obtenus
 
-![](assets/images/Pasted-image-20260109130822.png)
+![](../assets/images/Pasted-image-20260109130822.png)
 
 Une fois la session Meterpreter ouverte, une vérification du contexte d’exécution est réalisée :
 

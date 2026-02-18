@@ -17,9 +17,9 @@ L’audit a été réalisé sur l’application WordPress exposée sur le résea
 sudo wpscan --url http://192.168.1.45:8080/ --api-token <API_TOKEN> -e
 ```
 
-![](assets/images/Pasted-image-20260109133824.png)
-![](assets/images/Pasted-image-20260109133926.png)
-![](assets/images/Pasted-image-20260109134030.png)
+![](../assets/images/Pasted-image-20260109133824.png)
+![](../assets/images/Pasted-image-20260109133926.png)
+![](../assets/images/Pasted-image-20260109134030.png)
 **Observations principales :**
 
 - Le noyau WordPress est à jour (version 6.8.1).

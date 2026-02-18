@@ -76,7 +76,7 @@ Cette architecture permet de démontrer une chaîne d’attaque réaliste, depui
 
 ## I.1.6 Structure du projet
 
-![](assets/images/Pasted-image-20260108112409.png)
+![](../assets/images/Pasted-image-20260108112409.png)
 ### I.1.7 Description du schéma d’architecture
 
 Le schéma ci-dessus présente l’architecture logique de l’infrastructure auditée.

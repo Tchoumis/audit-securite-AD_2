@@ -22,7 +22,7 @@ Cette élévation de privilèges est réalisée sans exploitation de vulnérabil
 
 **Preuve :**
 
-![](assets/images/Pasted-image-20260109130947.png)
+![](../assets/images/Pasted-image-20260109130947.png)
 
 ```bash
 whoami
@@ -34,7 +34,7 @@ CYBER\Administrateur
 - Les hashs des mots de passe locaux ont été extraits depuis la base SAM ;
 - Ces identifiants peuvent être réutilisés pour des attaques de type Pass-the-Hash et faciliter la propagation latérale dans le domaine.
 
-![](assets/images/Pasted-image-20260109131239.png)
+![](../assets/images/Pasted-image-20260109131239.png)
 
 ## V.4.3 Impact opérationnel et risques métier
 
