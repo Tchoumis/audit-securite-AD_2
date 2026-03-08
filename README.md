@@ -166,15 +166,4 @@ Les vecteurs d’attaque initiaux ne sont plus exploitables, tandis que les acc�
 - La validation post-correction est indispensable dans tout audit sérieux
 
 Ce projet démontre qu’une sécurité Active Directory efficace repose avant tout sur la configuration, la supervision et la validation continue, bien plus que sur des solutions tierces complexes.
-## Positionnement professionnel
 
-Ce projet s’inscrit dans une démarche :
-
-- **SOC / Blue Team**
-- **Audit sécurité / GRC**
-- **Administration système sécurisée**
-- **Analyse d’incidents Active Directory**
-
-Il met l’accent autant sur l’attaque que sur la défense, la remédiation et la validation.
-
-> Projet réalisé dans un laboratoire personnel à des fins pédagogiques.
